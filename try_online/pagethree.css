@@ -101,3 +101,22 @@ table{
 .course{
     background-color: rgb(255, 200, 1);
 }
+
+@media (max-width: 768px) {
+    .good{
+        padding: 0%;
+    }
+    .hd{
+        font-size: 3vw;
+    }
+    .two{
+        font-size: 4vw;
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .three-three{
+        grid-template-columns: 1fr;
+    }
+}
