@@ -71,3 +71,19 @@ main{
     margin:auto;
     padding: 5% 0;
 }
+
+
+@media (max-width: 768px) {
+  .good{
+    padding: 0%;
+    }
+    .one{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .two{
+        font-size: 4vw;
+    }
+    .hd{
+    font-size: 3vw;
+    }
+}
