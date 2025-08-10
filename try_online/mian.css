@@ -24,6 +24,8 @@ img{
     background-color: rgb(1, 87, 87);
     padding: 5%;
     word-break: break-word; 
+    justify-content: center;
+        align-items: center;
 }
 .mainright div{
     display: flex;
@@ -69,4 +71,16 @@ footer{
 }
 .gg p{
     margin-left: 0.3vw;
+}
+
+@media (max-width: 768px) {
+  .mainone {
+      grid-template-columns: 1fr;
+  }
+    .mainleft{
+        display:none;
+    }
+    .mainright{
+        padding: 10%;
+    }
 }
